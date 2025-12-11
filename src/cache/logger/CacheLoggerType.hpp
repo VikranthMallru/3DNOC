@@ -1,0 +1,17 @@
+#ifndef CACHELOGGERTYPE_H
+#define CACHELOGGERTYPE_H
+
+enum t_LogType  {
+E_PACKET_LOGGING = 2,
+E_UNIT_LOGGING = 1,
+NUM_LOG_TYPE
+};
+
+enum t_PacketInfo   {
+E_PHYSICAL_ADDRESS_LOG = 0,
+E_VIRTUAL_ADDRESS_LOG = 1,
+E_ID_LOG = 2,
+E_NUM_PACKET_INFO_LOG
+};
+
+#endif
